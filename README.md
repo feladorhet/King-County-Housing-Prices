@@ -15,6 +15,6 @@ Part 2: Training the Neural Network
 - Obtained a "mean absolute error" of 96000$, not that bad since we are on the scale of millions. 
 
 UPDATE!
-- Tuned the model to avoid overshooting, tuned model performs significantly better.
+- Tuned the model to avoid overshooting. Tuned model performs significantly better. "Mean Absolute Error" is now about 65000$.
 
 The dataset used in the project: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
