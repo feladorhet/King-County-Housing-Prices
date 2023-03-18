@@ -14,4 +14,7 @@ Part 2: Training the Neural Network
 - Experimented with the number of hidden layers to improve performance (stuck around 75% accuracy, could use more experimenting)
 - Obtained a "mean absolute error" of 96000$, not that bad since we are on the scale of millions. 
 
+UPDATE!
+- Tuned the model to avoid overshooting, tuned model performs significantly better.
+
 The dataset used in the project: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
