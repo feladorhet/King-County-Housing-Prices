@@ -1,12 +1,12 @@
 ####################
-#REDO THE ORIGINAL MODEL WITH DROPOUT LAYERS
+#REDO THE ORIGINAL MODEL TO FIND OPTIMAL VAL_LOSS
 ####################
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
-from keras.layers import Dense, Dropout
+from keras.layers import Dense
 from sklearn.metrics import mean_absolute_error, explained_variance_score
 from keras.callbacks import EarlyStopping
 import matplotlib.pyplot as plt
